@@ -20,6 +20,8 @@ if (document.getElementById("texto").value != 0){
     muñeco.src = "img/encriptado.jpg";
 }else{
     muñeco.src = "img/muñeco.png";
+    tituloMensaje.textContent = "Ningun mensaje fue econtrado";
+    parrafo.textContent = "Ingrese el texto que deseas encriptar o desencriptar";
     alert("Debes ingresar algun texto");
 }
 
